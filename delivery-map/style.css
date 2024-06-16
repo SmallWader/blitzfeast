@@ -1,4 +1,4 @@
-.about-us {
+.delivery-map {
   background-color: #555078;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.about-us .div {
+.delivery-map .div {
   background-color: var(--bg-color);
   overflow: hidden;
   width: 1536px;
@@ -14,89 +14,7 @@
   position: relative;
 }
 
-.about-us .overlap {
-  position: absolute;
-  width: 1006px;
-  height: 659px;
-  top: 415px;
-  left: 312px;
-}
-
-.about-us .button-order {
-  position: absolute;
-  width: 408px;
-  height: 64px;
-  top: 452px;
-  left: 253px;
-}
-
-.about-us .overlap-group {
-  position: relative;
-  width: 406px;
-  height: 64px;
-  background-color: var(--accent);
-  border-radius: 12px;
-}
-
-.about-us .text-wrapper {
-  position: absolute;
-  top: 9px;
-  left: 43px;
-  font-family: "Langar", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.about-us .content {
-  display: inline-flex;
-  align-items: center;
-  gap: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.about-us .main {
-  position: relative;
-  width: 1008px;
-  height: 659.3px;
-  margin-right: -2px;
-}
-
-.about-us .overlap-group-2 {
-  position: relative;
-  width: 1006px;
-  height: 659px;
-}
-
-.about-us .main-2 {
-  position: absolute;
-  width: 1006px;
-  height: 335px;
-  top: 0;
-  left: 0;
-  background-color: var(--fcfefd);
-  border-radius: 4px;
-}
-
-.about-us .welcome-to {
-  position: absolute;
-  width: 735px;
-  top: 26px;
-  left: 136px;
-  font-family: "Arial-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--main);
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.about-us .footer {
+.delivery-map .footer {
   position: absolute;
   width: 1538px;
   height: 268px;
@@ -105,7 +23,7 @@
   background-color: transparent;
 }
 
-.about-us .overlap-2 {
+.delivery-map .overlap-group {
   position: relative;
   width: 1536px;
   height: 268px;
@@ -113,10 +31,10 @@
   background-size: 100% 100%;
 }
 
-.about-us .cr {
+.delivery-map .cr {
   position: absolute;
-  top: 199px;
-  left: 969px;
+  top: 203px;
+  left: 971px;
   font-family: "Arial-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -126,7 +44,7 @@
   white-space: nowrap;
 }
 
-.about-us .contact-us {
+.delivery-map .contact-us {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -136,7 +54,7 @@
   left: 32px;
 }
 
-.about-us .text-wrapper-2 {
+.delivery-map .text-wrapper {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -149,7 +67,7 @@
   white-space: nowrap;
 }
 
-.about-us .frame {
+.delivery-map .frame {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -158,7 +76,7 @@
   flex: 0 0 auto;
 }
 
-.about-us .text-wrapper-3 {
+.delivery-map .text-wrapper-2 {
   position: relative;
   width: fit-content;
   font-family: "Arial-Regular", Helvetica;
@@ -170,7 +88,38 @@
   white-space: nowrap;
 }
 
-.about-us .menu-bar {
+.delivery-map .content {
+  position: absolute;
+  width: 831px;
+  height: 721px;
+  top: 359px;
+  left: 354px;
+}
+
+.delivery-map .element-f {
+  position: absolute;
+  width: 829px;
+  height: 581px;
+  top: 140px;
+  left: 0;
+  object-fit: cover;
+}
+
+.delivery-map .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 146px;
+  font-family: "Arial-NarrowBold Italic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.delivery-map .menu-bar {
   position: absolute;
   width: 1096px;
   height: 75px;
@@ -178,7 +127,7 @@
   left: 220px;
 }
 
-.about-us .menu-buttons {
+.delivery-map .menu-buttons {
   display: inline-flex;
   align-items: flex-start;
   gap: 48px;
@@ -187,13 +136,13 @@
   left: 111px;
 }
 
-.about-us .main-page {
+.delivery-map .main-page {
   position: relative;
   width: 153px;
   height: 51px;
 }
 
-.about-us .button-text {
+.delivery-map .button-text {
   left: 3px;
   position: absolute;
   top: 11px;
@@ -209,13 +158,13 @@
   border-color: var(--bg-sec);
 }
 
-.about-us .button-text-wrapper {
+.delivery-map .about-us {
   position: relative;
   width: 135px;
   height: 51px;
 }
 
-.about-us .button-text-2 {
+.delivery-map .button-text-2 {
   position: absolute;
   top: 11px;
   left: 4px;
@@ -231,13 +180,13 @@
   border-color: var(--bg-sec);
 }
 
-.about-us .menu-prices {
+.delivery-map .menu-prices {
   position: relative;
   width: 245px;
   height: 51px;
 }
 
-.about-us .button-text-3 {
+.delivery-map .button-text-3 {
   left: 5px;
   position: absolute;
   top: 11px;
@@ -253,13 +202,13 @@
   border-color: var(--bg-sec);
 }
 
-.about-us .delivery-map {
+.delivery-map .button-text-wrapper {
   position: relative;
   width: 198px;
   height: 51px;
 }
 
-.about-us .hbar {
+.delivery-map .hbar {
   position: absolute;
   width: 1096px;
   height: 12px;
@@ -269,7 +218,7 @@
   border-radius: 4px;
 }
 
-.about-us .header {
+.delivery-map .header {
   position: absolute;
   width: 600px;
   height: 70px;
@@ -278,7 +227,7 @@
   background-color: transparent;
 }
 
-.about-us .header-name {
+.delivery-map .header-name {
   position: absolute;
   top: -4px;
   left: -4px;
