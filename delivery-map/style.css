@@ -1,0 +1,244 @@
+.delivery-map {
+  background-color: #555078;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.delivery-map .div {
+  background-color: var(--bg-color);
+  overflow: hidden;
+  width: 1536px;
+  height: 1445px;
+  position: relative;
+}
+
+.delivery-map .footer {
+  position: absolute;
+  width: 1538px;
+  height: 268px;
+  top: 1177px;
+  left: 0;
+  background-color: transparent;
+}
+
+.delivery-map .overlap-group {
+  position: relative;
+  width: 1536px;
+  height: 268px;
+  background-image: url(./img/footer-bg.svg);
+  background-size: 100% 100%;
+}
+
+.delivery-map .cr {
+  position: absolute;
+  top: 203px;
+  left: 971px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.delivery-map .contact-us {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.delivery-map .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.delivery-map .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.delivery-map .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.delivery-map .content {
+  position: absolute;
+  width: 831px;
+  height: 721px;
+  top: 359px;
+  left: 354px;
+}
+
+.delivery-map .element-f {
+  position: absolute;
+  width: 829px;
+  height: 581px;
+  top: 140px;
+  left: 0;
+  object-fit: cover;
+}
+
+.delivery-map .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 146px;
+  font-family: "Arial-NarrowBold Italic", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.delivery-map .menu-bar {
+  position: absolute;
+  width: 1096px;
+  height: 75px;
+  top: 244px;
+  left: 220px;
+}
+
+.delivery-map .menu-buttons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  position: absolute;
+  top: 24px;
+  left: 111px;
+}
+
+.delivery-map .main-page {
+  position: relative;
+  width: 153px;
+  height: 51px;
+}
+
+.delivery-map .button-text {
+  left: 3px;
+  position: absolute;
+  top: 11px;
+  -webkit-text-stroke: 2px #1c2742;
+  font-family: "Langar", Helvetica;
+  font-weight: 400;
+  color: var(--main);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border-color: var(--bg-sec);
+}
+
+.delivery-map .about-us {
+  position: relative;
+  width: 135px;
+  height: 51px;
+}
+
+.delivery-map .button-text-2 {
+  position: absolute;
+  top: 11px;
+  left: 4px;
+  -webkit-text-stroke: 2px #1c2742;
+  font-family: "Langar", Helvetica;
+  font-weight: 400;
+  color: var(--main);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border-color: var(--bg-sec);
+}
+
+.delivery-map .menu-prices {
+  position: relative;
+  width: 245px;
+  height: 51px;
+}
+
+.delivery-map .button-text-3 {
+  left: 5px;
+  position: absolute;
+  top: 11px;
+  -webkit-text-stroke: 2px #1c2742;
+  font-family: "Langar", Helvetica;
+  font-weight: 400;
+  color: var(--main);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border-color: var(--bg-sec);
+}
+
+.delivery-map .button-text-wrapper {
+  position: relative;
+  width: 198px;
+  height: 51px;
+}
+
+.delivery-map .hbar {
+  position: absolute;
+  width: 1096px;
+  height: 12px;
+  top: 0;
+  left: 0;
+  background-color: var(--accent);
+  border-radius: 4px;
+}
+
+.delivery-map .header {
+  position: absolute;
+  width: 600px;
+  height: 70px;
+  top: 126px;
+  left: 469px;
+  background-color: transparent;
+}
+
+.delivery-map .header-name {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  text-shadow: 0px 4px 20px #00000040;
+  -webkit-text-stroke: 4px #1c2742;
+  font-family: "Langar", Helvetica;
+  font-weight: 400;
+  color: #fcfefd;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border-color: var(--bg-sec);
+}
