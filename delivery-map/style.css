@@ -1,4 +1,4 @@
-.delivery-map {
+.about-us {
   background-color: #555078;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.delivery-map .div {
+.about-us .div {
   background-color: var(--bg-color);
   overflow: hidden;
   width: 1536px;
@@ -14,7 +14,89 @@
   position: relative;
 }
 
-.delivery-map .footer {
+.about-us .overlap {
+  position: absolute;
+  width: 1006px;
+  height: 659px;
+  top: 415px;
+  left: 312px;
+}
+
+.about-us .button-order {
+  position: absolute;
+  width: 408px;
+  height: 64px;
+  top: 452px;
+  left: 253px;
+}
+
+.about-us .overlap-group {
+  position: relative;
+  width: 406px;
+  height: 64px;
+  background-color: var(--accent);
+  border-radius: 12px;
+}
+
+.about-us .text-wrapper {
+  position: absolute;
+  top: 9px;
+  left: 43px;
+  font-family: "Langar", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about-us .content {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-us .main {
+  position: relative;
+  width: 1008px;
+  height: 659.3px;
+  margin-right: -2px;
+}
+
+.about-us .overlap-group-2 {
+  position: relative;
+  width: 1006px;
+  height: 659px;
+}
+
+.about-us .main-2 {
+  position: absolute;
+  width: 1006px;
+  height: 335px;
+  top: 0;
+  left: 0;
+  background-color: var(--fcfefd);
+  border-radius: 4px;
+}
+
+.about-us .welcome-to {
+  position: absolute;
+  width: 735px;
+  top: 26px;
+  left: 136px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--main);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-us .footer {
   position: absolute;
   width: 1538px;
   height: 268px;
@@ -23,7 +105,7 @@
   background-color: transparent;
 }
 
-.delivery-map .overlap-group {
+.about-us .overlap-2 {
   position: relative;
   width: 1536px;
   height: 268px;
@@ -31,10 +113,10 @@
   background-size: 100% 100%;
 }
 
-.delivery-map .cr {
+.about-us .cr {
   position: absolute;
-  top: 203px;
-  left: 971px;
+  top: 199px;
+  left: 969px;
   font-family: "Arial-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -44,7 +126,7 @@
   white-space: nowrap;
 }
 
-.delivery-map .contact-us {
+.about-us .contact-us {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -54,7 +136,7 @@
   left: 32px;
 }
 
-.delivery-map .text-wrapper {
+.about-us .text-wrapper-2 {
   position: relative;
   width: fit-content;
   margin-top: -1px;
@@ -67,7 +149,7 @@
   white-space: nowrap;
 }
 
-.delivery-map .frame {
+.about-us .frame {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -76,7 +158,7 @@
   flex: 0 0 auto;
 }
 
-.delivery-map .text-wrapper-2 {
+.about-us .text-wrapper-3 {
   position: relative;
   width: fit-content;
   font-family: "Arial-Regular", Helvetica;
@@ -88,38 +170,7 @@
   white-space: nowrap;
 }
 
-.delivery-map .content {
-  position: absolute;
-  width: 831px;
-  height: 721px;
-  top: 359px;
-  left: 354px;
-}
-
-.delivery-map .element-f {
-  position: absolute;
-  width: 829px;
-  height: 581px;
-  top: 140px;
-  left: 0;
-  object-fit: cover;
-}
-
-.delivery-map .text-wrapper-3 {
-  position: absolute;
-  top: 0;
-  left: 146px;
-  font-family: "Arial-NarrowBold Italic", Helvetica;
-  font-weight: 700;
-  font-style: italic;
-  color: #ffffff;
-  font-size: 80px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.delivery-map .menu-bar {
+.about-us .menu-bar {
   position: absolute;
   width: 1096px;
   height: 75px;
@@ -127,7 +178,7 @@
   left: 220px;
 }
 
-.delivery-map .menu-buttons {
+.about-us .menu-buttons {
   display: inline-flex;
   align-items: flex-start;
   gap: 48px;
@@ -136,13 +187,13 @@
   left: 111px;
 }
 
-.delivery-map .main-page {
+.about-us .main-page {
   position: relative;
   width: 153px;
   height: 51px;
 }
 
-.delivery-map .button-text {
+.about-us .button-text {
   left: 3px;
   position: absolute;
   top: 11px;
@@ -158,13 +209,13 @@
   border-color: var(--bg-sec);
 }
 
-.delivery-map .about-us {
+.about-us .button-text-wrapper {
   position: relative;
   width: 135px;
   height: 51px;
 }
 
-.delivery-map .button-text-2 {
+.about-us .button-text-2 {
   position: absolute;
   top: 11px;
   left: 4px;
@@ -180,13 +231,13 @@
   border-color: var(--bg-sec);
 }
 
-.delivery-map .menu-prices {
+.about-us .menu-prices {
   position: relative;
   width: 245px;
   height: 51px;
 }
 
-.delivery-map .button-text-3 {
+.about-us .button-text-3 {
   left: 5px;
   position: absolute;
   top: 11px;
@@ -202,13 +253,13 @@
   border-color: var(--bg-sec);
 }
 
-.delivery-map .button-text-wrapper {
+.about-us .delivery-map {
   position: relative;
   width: 198px;
   height: 51px;
 }
 
-.delivery-map .hbar {
+.about-us .hbar {
   position: absolute;
   width: 1096px;
   height: 12px;
@@ -218,7 +269,7 @@
   border-radius: 4px;
 }
 
-.delivery-map .header {
+.about-us .header {
   position: absolute;
   width: 600px;
   height: 70px;
@@ -227,7 +278,7 @@
   background-color: transparent;
 }
 
-.delivery-map .header-name {
+.about-us .header-name {
   position: absolute;
   top: -4px;
   left: -4px;
